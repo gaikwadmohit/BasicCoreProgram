@@ -13,9 +13,7 @@ public class LeapYear {
 			Scanner s = new Scanner(System.in);
 			System.out.println("enter year in 4 digit");
 			int year = s.nextInt();
-			/*
-			 * ensures the value is 4 digit
-			 */
+			
 			while (year < 999 || year > 9999) {
 				System.out.println("wrong input");
 				System.out.println("enter year in 4 digit");
