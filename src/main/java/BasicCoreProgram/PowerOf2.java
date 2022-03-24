@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class PowerOf2 {
 	
 
-	
-
 		static void printTable(int power) {
 			int val = 1;
 			for (int i = 1; i <= power; i++) {
